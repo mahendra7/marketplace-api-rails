@@ -23,6 +23,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+#Api gems
+gem 'active_model_serializers'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
 
@@ -42,8 +45,13 @@ group :test do
 end
 
 gem "devise"
+
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
