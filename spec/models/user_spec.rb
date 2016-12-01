@@ -19,6 +19,8 @@ describe User do
   # we test the auth_token is unique
   it { should validate_uniqueness_of(:auth_token)}
   it { should have_many(:products) }
+  it { should have_many(:products) }
+  it { should have_many(:orders) }
   
   describe "#products association" do
     before do
