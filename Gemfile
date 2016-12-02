@@ -55,6 +55,7 @@ gem 'compass-rails'
 gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
+gem 'delayed_job_active_record'
 # Use ActiveModel has_secure_password
 
 # Use unicorn as the app server
