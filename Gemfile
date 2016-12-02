@@ -49,7 +49,7 @@ group :test do
 end
 
 gem "devise"
-
+gem 'kaminari'
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'compass-rails'
 gem 'furatto'
